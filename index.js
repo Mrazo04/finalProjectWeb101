@@ -1,3 +1,8 @@
-window.addEventListener('scroll', () => {
-    document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-  }, false);
+window.onscroll = function () {
+  scrollRotate();
+};
+
+function scrollRotate() {
+  let image = document.getElementById("circle");
+  image.style.transform = "rotate("+ window.pageYOffset/6 + "deg)";
+}

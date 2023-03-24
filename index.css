@@ -82,7 +82,7 @@ img.logo{
     padding-top: 20pt;
 }
 
-h1{
+h1#intro{
     font-size: 60px;
     padding-top: 35pt;
 }
@@ -173,3 +173,66 @@ img.fun{
     width: 50%;
     transition: all 0.5s ease;
 }
+
+#contactMe{
+    height: 515px;
+    width: 100vw;
+    background-color: #ac824a;
+    margin-top: 447px;
+}
+
+
+.circle{
+    height: 390px;
+    width: 389px;
+    position: absolute;
+    left: 887px;
+    margin-top: -188px;
+    background-color: #d8c8b3;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.letsTalk{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 104px;
+    font-size: 80px;
+    row-gap: 16px;
+    font-family: 'Fredericka the Great', cursive;
+    color: #714000 
+}
+
+.rectContact{
+    /* height: 194px;
+    width: 200px;
+    margin-top: 248px;
+    margin-left: 654px; */
+    /* background-color: #d8c8b3; */
+}
+
+#emailBox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#phoneIcon{
+    height: 63px;
+    width: 64px;
+    margin-top: 248px;
+    margin-left: 548px;
+    position: relative;
+}
+
+p.email{
+    color: #d8c8b3;
+    position: relative;
+    padding-left: 563px;
+}
+
+
