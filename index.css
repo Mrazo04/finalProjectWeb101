@@ -205,14 +205,6 @@ img.fun{
     color: #714000 
 }
 
-.rectContact{
-    /* height: 194px;
-    width: 200px;
-    margin-top: 248px;
-    margin-left: 654px; */
-    /* background-color: #d8c8b3; */
-}
-
 #emailBox{
     position: absolute;
     display: flex;
@@ -221,18 +213,60 @@ img.fun{
     align-items: center;
     
 }
-#phoneIcon{
-    height: 63px;
-    width: 64px;
-    margin-top: 248px;
-    margin-left: 548px;
+
+#mailIcon{
+    height: 48px;
+    width: 40px;
+    margin-top: 285px;
+    margin-left: 733px;
     position: relative;
 }
 
 p.email{
     color: #d8c8b3;
     position: relative;
-    padding-left: 563px;
+    padding-left: 724px;
+}
+
+#topP{
+    padding-top: 16px;
+}
+
+#linkedInBox{
+    width: 382px;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+}
+
+a.linkedIn:nth-of-type(2) {
+    display: inline-block;
+}
+
+img.linkedInIcon{
+    display: block;
+    height: 48px;
+    width: 40px;
+    margin-top: 285px;
+    margin-left: 156px;
 }
 
 
+p.findMe{
+    color: #d8c8b3;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 55px;
+}
+/* 
+#linkedInBox img.linkedInIcon{
+    display: block;
+    height: 48px;
+    width: 40px;
+    margin-top: 88px;
+    margin-left: 589px;
+}
+
+#linkedInBox a.linkedIn{
+    display: inline-block;
+} */
