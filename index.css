@@ -47,14 +47,12 @@ img.logo{
 }
 
 .introduction{
-    /* border: 5px solid; */
     padding: 20pt;
     height: 299pt;
     width: 446pt;
     position: absolute;
     top: 30%;
     left: 55%;
-    /* transform: translate(-70%,-75%); */
 }
 
 .name{
