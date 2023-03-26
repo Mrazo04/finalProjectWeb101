@@ -635,4 +635,38 @@ p.findMe{
         margin-left: -108px;
         width: 210px;
     }
+
+    @media (min-width: 1200px) {
+    .sidenav {
+        width: 226px;
+    }
+
+    .imageContainer{
+        margin-left: 317px;
+    }
+
+    .circle {
+        left: 554px;
+    }
+
+    #mailIcon {
+        margin-top: 185px;
+        margin-left: 348px;
+    }    
+
+    p#topP{
+        padding-left: 348px;
+    }
+
+    p.email{
+        padding-left:356px;
+    }
+
+    img.linkedInIcon{
+        margin-left: 219px;
+    }
+
+    p.findMe{
+        margin-left: -132px;
+    }
 }
