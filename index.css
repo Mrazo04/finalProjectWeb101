@@ -1,10 +1,9 @@
 body{
-    background-color: #EBE9E3;
     height: 100vh;
+    background-color: #ecded3;
 }
 
 .header{
-    /* border: 5px solid ; */
     display: flex;
     justify-content: end;
     height: 10vh;
@@ -92,10 +91,22 @@ p.innerText{
 .rectangle{
     height: 600px;
     width: 490px;
-    background-color: #ac824a;
+    background-color: #234412b3;
     position: absolute;
     top: 0%;
     left: 25%;
+}
+
+.arch{
+border: solid 5px #234412b3;
+height: 494px;
+width: 458px;
+position: absolute;
+top: 30%;
+left: 25%;
+margin-top: 12px;
+margin-left: 13px;
+border-radius: 275px 282px 0px 0px;
 }
 
 img.profilePic{
@@ -104,7 +115,6 @@ img.profilePic{
     position: absolute;
     top: 30%;
     left: 25%;
-    /* transform: translate(-30%,-25%); */
     border-radius: 2838px 2867px 0px 0px;
 }
 
@@ -175,7 +185,7 @@ img.fun{
 #contactMe{
     height: 515px;
     width: 100vw;
-    background-color: #ac824a;
+    background-color: #234412b3;
     margin-top: 447px;
 }
 
@@ -221,7 +231,6 @@ img.fun{
 }
 
 p.email{
-    color: #d8c8b3;
     position: relative;
     padding-left: 724px;
 }
@@ -251,20 +260,7 @@ img.linkedInIcon{
 
 
 p.findMe{
-    color: #d8c8b3;
     position: relative;
     margin-top: 16px;
     margin-left: 55px;
 }
-/* 
-#linkedInBox img.linkedInIcon{
-    display: block;
-    height: 48px;
-    width: 40px;
-    margin-top: 88px;
-    margin-left: 589px;
-}
-
-#linkedInBox a.linkedIn{
-    display: inline-block;
-} */
