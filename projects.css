@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-color: #234412b3;
+    background-color: #0f0d0aea;
 }
 
 .sidenav {
@@ -10,7 +10,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #d8c8b3;
+    background-color: #1514128b;
     overflow-x: hidden;
     padding-top: 139px;
   }
@@ -23,6 +23,7 @@ body{
     font-size: 25px;
     color: #714000;
     line-height: 40px;
+    font-family: 'Nanum Myeongjo', serif;
   }
 
   .sidenav a:hover {
@@ -34,7 +35,10 @@ body{
     height: 461px;
     top: 30%;
     left: 40%;
+  }
 
+  #hairSalon{
+    margin-left: 14px;
   }
 
   .carousel-caption {
@@ -46,6 +50,8 @@ body{
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+
   }
 
   .carousel-indicators {
