@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-color: #ecded3;
+    background-color: #0f0d0aea;
 }
 
 .backgroundAnimation img{
@@ -22,7 +22,7 @@ h3{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #d8c8b3;
+    background-color: #1514128b;
     overflow-x: hidden;
     padding-top: 139px;
   }
