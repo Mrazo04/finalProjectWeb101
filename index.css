@@ -503,5 +503,136 @@ p.findMe{
         left: 233px;
         margin-top: -145px;
     }
+}
 
+@media (min-width: 992px) {
+    .sidenav {
+        height: 100%;
+        width: 191px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #d8c8b3;
+        overflow-x: hidden;
+        padding-top: 139px;
+        display: block;
+      }
+    
+      .sidenav a {
+        display: flex;
+        justify-content: end;
+        padding: 14px 46px 6px 19px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #714000;
+        line-height: 40px;
+      }
+    
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .introduction{
+        padding: 0pt;
+        height: 299pt;
+        width: 313pt;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    .name{
+        display: flex;
+        align-items: flex-end;
+        padding-left: 16pt;
+    }
+
+    h1#intro{
+        font-size: 55px;
+        padding-top: 35pt;
+        padding-left: 70px;
+    }
+
+    .mainContainer p{
+        font-size: 20px;
+        padding-left: 206pt;
+        line-height: 30px;
+    }
+
+    #pronounciation {
+        padding-left: 79px;
+    }
+
+    p.mickey {
+        padding-top: 20pt;
+        padding-left: 166px;
+    }
+    
+    p.description{
+        width: 287px;
+        padding-left: 166px;
+    }
+
+    .rectangle{
+        height: 456px;
+        width: 303px;
+        position: absolute;
+        top: 0%;
+        left: 25%;
+    }
+
+    img.profilePic{
+        height: 348px;
+        width: 305px;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    .arch{
+        height: 321px;
+        width: 288px;
+        top: 30%;
+        left: 25%;
+        margin-top: 10px;
+        margin-left: 3px;
+        border-radius: 275px 282px 0px 0px;
+        }
+
+    .imageContainer {
+        margin-left: 218px;
+    }
+
+    p.imageDescription{
+        padding-left: 0px;
+    }
+
+    #contactMe {
+        margin-top: 412px;
+        height: 382px;
+    }
+
+    .circle {
+        left: 464px;
+       margin-top: -145px;
+    }
+
+    #mailIcon {
+        margin-top: 169px;
+        margin-left: 267px;
+    }
+
+    img.linkedInIcon {
+        position: absolute;
+        margin-top: 178px;
+        margin-left: 255px;
+    }
+
+    p.findMe {
+        position: absolute;
+        margin-top: 245px;
+        margin-left: -108px;
+        width: 210px;
+    }
 }
