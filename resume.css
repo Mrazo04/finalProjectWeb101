@@ -331,3 +331,15 @@ justify-content: space-evenly;
     }
 }
 
+@media (max-width: 1200px){
+  .backgroundAnimation img{
+    position: absolute;
+    width: auto;
+    }
+
+    .name{
+      margin-top: 161px;
+      margin-left: -244px;
+      }
+}
+
