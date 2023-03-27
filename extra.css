@@ -1,0 +1,165 @@
+@media (max-width:576px){
+    .backgroundAnimation img {
+      position: absolute;
+      width: auto;
+  }
+    .sidenav {
+        height: 50px;
+        width: 100%;
+        padding-top: 61px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+     }
+    .sidenav a {
+      font-size: 20px;
+      padding: 5px;
+    }
+  
+    .name{
+      margin-top: 225px;
+      margin-left: -74px;
+    }
+  
+    .name h1 {
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 80px;
+    }
+  
+  .grid-container {
+        left:0%;
+        grid-template-columns: 325px 172px;
+    }
+  
+  .skillCircle{
+        margin-left: -28px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+     }
+  
+  .skillSection:hover{
+    transform: scale(4) translateX(20px) translateY(-20px);
+    }
+  
+  
+    .educationSection:hover{
+      transform: scale(4) translateX(-10px) translateY(-20px);
+      }
+  
+      .education h3{
+        padding-top: 17px;
+        margin-left: -9px;
+    }
+  
+    .experienceSection:hover{
+      transform: scale(3) translateX(5px) translateY(50px);
+  }
+  
+  .experience h3{
+    padding-top: 22px;
+    margin-left: 35px;
+  }
+  
+  @media (max-width: 768px) {
+    .name{
+      margin-top: 117px;
+      margin-left:  143px;
+    }
+  
+    .grid-container {
+      left: 0%;
+      grid-template-columns: 325px 172px;
+    }
+  
+    .skillCircle{
+      margin-left:  169px;
+    }
+  
+    .skillSection:hover{
+      transform: scale(4) translateX(-50px) translateY(-20px);
+      }
+  
+      .skill h3{
+        padding-top: 18px;
+        margin-left: 20px;
+      }
+  
+      educationSection{
+        right: 0%;
+        left:100%;
+  
+      }.
+  
+      .educationSection:hover{
+        transform: scale(4) translateX(-50px) translateY(-20px);
+        }
+    
+        .education h3{
+          padding-top: 17px;
+          margin-left: -9px;
+      }
+  
+      .experienceSection{
+        left: 75%;
+        }
+  
+      }
+  
+  @media (max-width: 992px) {
+  
+    .name{
+      margin-top: 117px;
+      margin-left:  143px;
+    }
+  
+    .grid-container {
+      left: 0%;
+      grid-template-columns: 325px 172px;
+    }
+  
+    .skillCircle{
+      margin-left:  257px;
+    }
+  
+    
+    .skill h3{
+      padding-top: 18px;
+      margin-left: 20px;
+    }
+  
+    .skillSection:hover{
+      transform: scale(4) translateX(-90px) translateY(-20px);
+      }
+  
+    .educationSection{
+      right: 0%;
+      left:284px;
+    }
+  
+    .education h3{
+      padding-top: 17px;
+      margin-left: -9px;
+  }
+  
+    .educationSection:hover{
+      transform: scale(4) translateX(-50px) translateY(-20px);
+      }
+  
+    .experienceSection{
+      left: 95%;
+      }
+  
+      .experience h3{
+        padding-top: 22px;
+        margin-left: 35px;
+      }
+  }
+  
+  @media (max-width: 1200px){
+      .name{
+        margin-top: 163px;
+        position: absolute;
+        margin-left: -341px;
+        }
+  }
