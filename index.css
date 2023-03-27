@@ -332,7 +332,7 @@ img.profilePic{
 
 .imageContainer{
     margin-left: 43px;
-    margin-top:  815px;
+    margin-top:  909px;
     display: flex;
     flex-direction: column;
     column-gap: 0px;
@@ -635,6 +635,7 @@ p.findMe{
         margin-left: -108px;
         width: 210px;
     }
+}
 
     @media (min-width: 1200px) {
     .sidenav {
@@ -668,5 +669,159 @@ p.findMe{
 
     p.findMe{
         margin-left: -132px;
+    }
+}
+
+@media (min-width: 1500px){
+    .introduction{
+        padding: 20pt;
+        height: 299pt;
+        width: 446pt;
+        position: absolute;
+        top: 30%;
+        left: 55%;
+    }
+
+    .name{
+        display: flex;
+        align-items: flex-end;
+        font-family: 'Fredericka the Great', cursive;
+        padding-left: 16pt;
+        color: #714000
+    }
+
+    .mainContainer p{
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 20px;
+        padding-left: 54pt;
+        line-height: 30px;
+        color: #714000
+    }
+
+    #pronounciation {
+        font-size: 30px;
+        padding-top: 10pt;
+    }
+    
+    p.mickey {
+        padding-top: 20pt;
+        padding-left: 76px;
+    }
+    
+    h1#intro{
+        font-size: 60px;
+        padding-top: 35pt;
+    }
+    
+    p.innerText{
+        padding-top: 20pt;
+    }
+    
+    p.description{
+        width: 474px;
+    }
+    .rectangle{
+        height: 600px;
+        width: 490px;
+        background-color: #234412b3;
+        position: absolute;
+        top: 0%;
+        left: 25%;
+    }
+    
+    .arch{
+    border: solid 5px #234412b3;
+    height: 494px;
+    width: 458px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    margin-top: 12px;
+    margin-left: 13px;
+    border-radius: 275px 282px 0px 0px;
+    }
+    
+    img.profilePic{
+        height: 523px;
+        width: 490px;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        border-radius: 2838px 2867px 0px 0px;
+    }
+
+    .imageContainer{
+        margin-left: 532px;
+        margin-top: 993px;
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 500px 500px;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    img.fun{
+        height: 500px;
+        width: 350px;
+    }
+    #contactMe{
+        height: 601px;
+        width: 100vw;
+        background-color: #234412b3;
+        margin-top: 447px;
+    }
+
+    .circle{
+        height: 390px;
+        width: 389px;
+        position: absolute;
+        left: 887px;
+        margin-top: -188px;
+        background-color: #d8c8b3;
+        border-radius: 200px 200px 200px 200px;
+    }
+
+    .letsTalk{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 104px;
+        font-size: 80px;
+        row-gap: 16px;
+        font-family: 'Fredericka the Great', cursive;
+        color: #714000 
+    }
+
+    #mailIcon{
+        height: 48px;
+        width: 40px;
+        margin-top: 285px;
+        margin-left: 733px;
+        position: relative;
+    }
+
+    p.email{
+        position: relative;
+        padding-left: 724px;
+    }
+
+    p#topP{
+        padding-left: 730px;
+    }
+
+    img.linkedInIcon{
+        display: block;
+        height: 48px;
+        width: 40px;
+        margin-top: 285px;
+        margin-left: 156px;
+    }
+
+    p.findMe{
+        position: relative;
+        margin-top: 357px;
+        margin-left: 16px;
     }
 }
