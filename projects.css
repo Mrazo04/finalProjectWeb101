@@ -143,3 +143,18 @@ img {
 }
 
 }
+
+@media (min-width: 768px) {
+  img {
+    position: absolute;
+    height: 285px;
+    top: -8px;
+    left: 257px;
+
+  } 
+
+  .carousel-control-prev {
+    margin-left: 51px;
+  }
+}
+
