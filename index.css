@@ -254,7 +254,7 @@ p.findMe{
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
     body{
         width: auto;
     }

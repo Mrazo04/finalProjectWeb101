@@ -95,3 +95,51 @@ margin-left: 447px;
     opacity: .5;
     transition: opacity .15s ease;
 }
+
+@media (min-width:500px){
+  .sidenav {
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    padding-top: 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: visible;
+ }
+
+ .sidenav a {
+  position: relative;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.carousel-item.active {
+  margin-top: 150px;
+  height: 50vh;
+  padding-left: 20px;
+}
+
+.carousel-control-prev{
+  top: 170px;
+  margin-left: 20px;
+}
+
+.carousel-control-next{
+  top: 170px;
+  margin-right: 13px;
+}
+
+.carousel-inner {
+  top: 103px;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  height: 285px;
+  top: -8px;
+  left: 115px;
+}
+
+}
