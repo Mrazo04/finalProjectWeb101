@@ -1,6 +1,6 @@
 body{
-    height: 100vh;
-    background-color: #0f0d0aea;
+  height: 100vh;
+  background-color: #0f0d0aea;
 }
 
 .backgroundAnimation img{
@@ -172,4 +172,66 @@ transition: all .2s ease-in-out;
 .experience h3{
     padding-top: 44px;
     margin-left: -36px;
+}
+
+@media (max-width:576px){
+
+.sidenav {
+height: 50px;
+width: 100%;
+padding-top: 61px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+  .sidenav a {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .name{
+    margin-top: 214px;
+    margin-left: -81px;
+  }
+
+  .name h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 80px;
+  }
+
+.grid-container {
+  left:0%;
+  grid-template-columns: 325px 172px;
+}
+
+.skillCircle{
+  margin-left: -28px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.skillSection:hover{
+  transform: scale(4) translateX(20px) translateY(-20px);
+  }
+
+
+  .educationSection:hover{
+    transform: scale(4) translateX(-10px) translateY(-20px);
+    }
+
+    .education h3{
+      padding-top: 17px;
+      margin-left: -9px;
+  }
+
+  .experienceSection:hover{
+    transform: scale(3) translateX(5px) translateY(50px);
+}
+
+.experience h3{
+  padding-top: 22px;
+  margin-left: 35px;
+}
 }

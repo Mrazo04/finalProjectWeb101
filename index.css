@@ -764,6 +764,10 @@ p.findMe{
         height: 500px;
         width: 350px;
     }
+
+    p.imageDescription{
+        padding-left: 0px;
+    }
     #contactMe{
         height: 601px;
         width: 100vw;
